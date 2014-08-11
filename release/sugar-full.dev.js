@@ -680,7 +680,7 @@
 
   // Used by the Array and Object packages.
 
-  function transformArgument(el, map, context, mapArgs) {
+  function transformArgumentOld(el, map, context, mapArgs) {
     if(!map) {
       return el;
     } else if(map.apply) {
